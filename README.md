@@ -55,7 +55,7 @@ id 0
 id n
 
 commitment
-id0
+id 0
 .
 .
 .

@@ -1,8 +1,8 @@
 # jf-dkg
  
 jf-dkg is joint-feldman dkg test code.
-We don't actually exchange shares with each other and haven't verified the RE phase.
-In practice, the feldman VSS process is done in parallel.
+This program doesn't actually exchange shares with each other and haven't verified the RE phase.
+In practice, the feldman VSS process is done in parallel under thr production environment.
 
 # DEMO
  

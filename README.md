@@ -17,12 +17,13 @@ I'm not refactoring. So There is a lot of waste.
 
 # Requirement
  
-* ramdom
-* math
-* time
-* sympy
-* hashlib
-* sympy
+* import random
+* import math
+* import time
+* import sympy
+* from random import randrange
+* from hashlib import sha1
+* from gmpy2
  
 # Installation
 

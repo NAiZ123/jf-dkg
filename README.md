@@ -73,7 +73,7 @@ public commitment
 # Note
 
 Please tell me about my mistakes.
-I'm sorry. The reply is slow.
+I'm so sorry, The reply is slow.
  
 # Author
  

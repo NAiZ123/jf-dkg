@@ -1,7 +1,9 @@
 # jf-dkg
  
-jf-dkg is joint-feldman test code
- 
+jf-dkg is joint-feldman dkg test code.
+We don't actually exchange shares with each other and haven't verified the RE phase.
+In practice, the feldman VSS process is done in parallel.
+
 # DEMO
  
 See this paper
@@ -28,7 +30,7 @@ I'm not refactoring. So There is a lot of waste.
 # Installation
 
 please insttall lib (gmpy2,hashlib,sympy)
- 
+(mac os)
 ```bash
 brew install gmp
 brew install mpfr
@@ -67,7 +69,13 @@ dkg public y : y
 
 elpased_time : 
 
-public commitment
+public commitment :
+
+Combining shares :
+# select shares #
+
+Secret recovered from minimum subset of shares:  
+Secret recovered a different minimum subset of shares: 
 
 ```
  
@@ -79,7 +87,7 @@ I'm so sorry, The reply is slow.
 # Author
  
 * NAiZ
-* I'm a student
+* I'm a college student.
 * twitter  https://twitter.com/WanaNaoki
  
 # License

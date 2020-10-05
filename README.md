@@ -5,11 +5,14 @@ jf-dkg is joint-feldman test code
 # DEMO
  
 See this paper
-https://link.springer.com/content/pdf/10.1007/3-540-46416-6_47.pdf
-https://www.researchgate.net/publication/227327292_Secure_Distributed_Key_Generation_for_Discrete-Log_Based_Cryptosystems
+* https://link.springer.com/content/pdf/10.1007/3-540-46416-6_47.pdf
+* https://www.researchgate.net/publication/227327292_Secure_Distributed_Key_Generation_for_Discrete-Log_Based_Cryptosystems
 
 # Features
 This is for the simplest of experiments joint-feldman dkg code.
+p : 1024bit
+q : 160 bit
+
 I'm not refactoring. So There is a lot of waste.
 
 # Requirement
@@ -19,10 +22,11 @@ I'm not refactoring. So There is a lot of waste.
 * time
 * sympy
 * hashlib
+* sympy
  
 # Installation
 
-please insttall lib (gmpy2)
+please insttall lib (gmpy2,hashlib,sympy)
  
 ```bash
 brew install gmp
@@ -34,7 +38,7 @@ pip install gmpy2
 # Usage
  
 ```bash
-git clone https://github.com/jf-dkg/~
+git clone https://github.com/jf-dkg
 cd jf-dkg
 python joint-feldman_dkg.py
 k = 3
@@ -57,6 +61,12 @@ id0
 .
 id n
 
+dkg share x : [ id , dkg-share ]
+dkg public y : y
+
+elpased_time : 
+
+public commitment
 
 ```
  

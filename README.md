@@ -50,14 +50,14 @@ n = 5
 .
 .
 
-share
+pre-share and commitment
 id 0
 .
 .
 .
 id n
 
-commitment
+Feldman VSS(pre-share Verify)
 id 0
 .
 .
